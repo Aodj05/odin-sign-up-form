@@ -1,9 +1,27 @@
+@font-face {
+	font-family: 'norsebold';
+	src:  url('Norse-Bold.otf');
+}
+
+
 * {
 	margin: 0;
 	padding: 0;
 }
 
+body {
+	display: flex;
+	width: 100%;
+	font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
 h1 {
+
+}
+
+p {
 
 }
 
@@ -12,23 +30,42 @@ label {
 
 }
 
-.logo {
-
+.lbg {
+	font-family: 'norsebold';
+	background-color: rgba(90, 116, 237, .2);
+	width: 40%;
+	height: 100px;
+	display: flex;
+	position: absolute;
 }
 
 .wrapper {
-	display: flex;
+    background-image: url(img/Logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.right {
+	position: relative;
+	float: right;
+	width: 60%;
 }
 
 .form-bg {
-
+	background-color: #f9fafb;
+    float: right;
+    height: 100vh;
 }
 
 .form{
-
+	background-color: #ffffff;
+	float: right;
 }
 
 .submit {
-
+	background-color: #f9fafb;
+	float: right;
+	width: 60%;
 }
 

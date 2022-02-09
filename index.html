@@ -7,43 +7,48 @@
 	<link rel="stylesheet" type="text/css" href="sign-up-form.css">
 </head>
 <body>
-	<header class="logo"><img src="#">Odin</header>
 	<div class="wrapper">
-		<div class="form-bg">
-			<h1>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started</h1>
-			<br/>
-			<h1>You <em>know</em> you want to.</h1>
+		<div class="lbg">
+			<img src="img/Logo.png">
+			<p>Odin</p>
 		</div>
-		<form class="form" action="#" method="post">
-			<h2>Let's do this!</h2>
-			<label>
-				First Name
-				<input type="text" name="fname" placeholder="Thor">
-			</label>
-			<label>
-				Last Name
-				<input type="text" name="lname" placeholder="Odinson">
-			</label>
-			<label>
-				Email
-				<input type="email" name="email">
-			</label>
-			<label>
-				Phone Number
-				<input type="tel" name="pnumber">
-			</label>
-			<label>
-				Password
-				<input type="password" name="pass" required>
-			</label>
-			<label>
-				Confirm Password
-				<input type="password" name="pass" required>
-			</label>
-		</form>
-		<div class="submit">
-			<button type="submit" value="submit" class="submit">Create Account</button>
-			<p>Already have an account? <a href="#">Log in</a></p>
+		<div class="right">
+			<div class="form-bg">
+				<h1>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started</h1>
+				<br/>
+				<h1>You <em>know</em> you want to.</h1>
+				<form class="form" action="#" method="post">
+					<h2>Let's do this!</h2>
+					<label>
+						First Name
+						<input type="text" name="fname" placeholder="Thor">
+					</label>
+					<label class="focus">
+						Last Name
+						<input type="text" name="lname" placeholder="Odinson">
+					</label>
+					<label>
+						Email
+						<input type="email" name="email">
+					</label>
+					<label>
+						Phone Number
+						<input type="tel" name="pnumber">
+					</label>
+					<label class="error">
+						Password
+						<input type="password" name="pass" required>
+					</label>
+					<label class="error">
+						Confirm Password
+						<input type="password" name="pass" required>
+					</label>
+				</form>
+				<div class="submit">
+					<button type="submit" value="submit" class="submit">Create Account</button>
+					<p>Already have an account? <a href="#">Log in</a></p>
+				</div>
+		</div>
 		</div>
 	</div>
 </body>
