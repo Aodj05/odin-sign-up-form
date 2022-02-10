@@ -1,6 +1,6 @@
 @font-face {
-	font-family: 'norsebold';
-	src:  url('Norse-Bold.otf');
+	font-family: 'design';
+	src:  url('DesiGn Dnub Font Designer.ttf');
 }
 
 
@@ -13,59 +13,121 @@ body {
 	display: flex;
 	width: 100%;
 	font-family: Arial, sans-serif;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 600;
 }
 
 h1 {
-
+	font-size: 20px;
+	width: 52%;
+	margin-left: 50px;
 }
 
-p {
-
+h2 {
+	font-size: 20px;
+	background-color: #ffffff;
+	margin-left: 50px;
+	margin-top: 15px;
 }
 
-a,
-label {
+form {
+	display: flex;
+	flex-direction: column;
+	margin-left: 50px;
+}
 
+img {
+	margin-left: 325px;
+}
+
+input {
+	border: 1px solid #E5E7EB;
+}
+
+.lbg p {
+	font-size: 80px;
+	margin-top: 10px;
 }
 
 .lbg {
-	font-family: 'norsebold';
-	background-color: rgba(90, 116, 237, .2);
-	width: 40%;
-	height: 100px;
-	display: flex;
-	position: absolute;
+    font-family: 'design';
+    background-color: rgba(90, 116, 237, .4);
+    width: 50%;
+    height: 119px;
+    display: flex;
+    position: absolute;
+    top: 167px;
 }
 
 .wrapper {
-    background-image: url(img/Logo.png);
+    background-image: url(img/Logo1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
+    background-position: center;
 }
 
 .right {
 	position: relative;
 	float: right;
-	width: 60%;
+	width: 50%;
+	background-color: #f9fafb;
 }
 
 .form-bg {
-	background-color: #f9fafb;
-    float: right;
-    height: 100vh;
+    height: 88vh;
+    width: 100%;
+    margin-top: 113px;
+    display: flex;
+    flex-direction: column;
 }
 
-.form{
+.account {
+	margin-top: 45px;
 	background-color: #ffffff;
-	float: right;
+	box-shadow: 0 2.5px 0 grey;
+}
+
+.row {
+	display: flex;
+}
+
+.form-info {
+	margin: 45px 45px 0 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.focus {
+	border-color: blue;
+}
+
+.error {
+	border-color: red;
+}
+
+.perror {
+	color: red;
 }
 
 .submit {
-	background-color: #f9fafb;
 	float: right;
 	width: 60%;
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+	margin-left: 50px;
+	font-size: 14px;
+}
+
+.sbtn {
+	background-color: #00792a;
+	color: white;
+	width: 36%;
+	padding: 10px;
+	margin-bottom: 30px;
+	border-radius: 8px;
+	font-size: 14px;
 }
 
