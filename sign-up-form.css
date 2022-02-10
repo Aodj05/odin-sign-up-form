@@ -44,6 +44,10 @@ input {
 	border: 1px solid #E5E7EB;
 }
 
+a {
+	color: #00792a;
+}
+
 .lbg p {
 	font-size: 80px;
 	margin-top: 10px;
